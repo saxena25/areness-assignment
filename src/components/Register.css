@@ -1,0 +1,89 @@
+.register-wrapper{
+    background-image: url('https://img.freepik.com/free-photo/view-arrangement-with-keyboard-notebooks_23-2148847749.jpg?w=1060&t=st=1729235811~exp=1729236411~hmac=43389da9f1a15d0b6d1549e14a70cf2c8f1a42f109bbc372da95f4ab11655e50');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: rgba(255, 254, 254, 0.35) 0px 5px 20px;
+    /* justify-content: space-between; */
+    gap: 1.5rem;
+}
+
+.right-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 26rem;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.right-box h2{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+}
+
+form input{
+    padding: 10px;
+    padding-left: 10px;
+    width: 20rem;
+}
+
+form button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: rgb(78, 78, 243);
+    border: none;
+    color: white;
+    transition: transform 0.3s ease-out;
+}
+
+form button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.left-box-image{
+    height: 60vh;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in;
+    overflow: hidden;
+}
+
+.footer{
+    position: fixed;
+    display: flex;
+    gap: 1rem;
+    color: white;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.left-box-image:hover{
+    transform: scale(1.1);
+}
+
+
+

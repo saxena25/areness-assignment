@@ -1,0 +1,167 @@
+.navbar-wrapper{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    height: 5rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border: 3px solid #FF6767;
+    background-color: #F8F8F8;
+}
+
+.navbar-right-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.center-box{
+    position: relative;
+}
+
+.center-box input{
+    width: 34rem;
+    height: 2.2rem;
+    padding-left: 10px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+}
+
+.search-icon{
+    width: 2.2rem;
+    position: absolute;
+    top: 2.3px;
+    right: 1.8px;
+    /* bottom: 0px; */
+    padding-left: 5px;
+    background-color: #FF6767;
+}
+
+.bell-icon{
+    width: 2rem;
+    background-color: #FF6767;
+    margin-right: 1rem;
+    border-radius: 8px;
+}
+
+.calender-icon{
+    width: 2rem;
+    padding: 5px;
+    background-color: #FF6767;
+    margin-right: 1rem;
+    border-radius: 8px;
+}
+
+.left-box h2 span{
+    color: #FF6767;
+}
+
+.left-box h2{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.right{
+    text-align: center;
+}
+
+@media only screen and (max-width: 3000px){
+    .hamburger-menu{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    .hamburger-menu{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .hamburger-menu{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .hamburger-menu{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 480px){
+    .navbar-wrapper{
+        padding-left: 1rem;
+    }
+    .left-box h2{
+        font-size: 1.9rem;
+    }
+    .center-box input{
+        width: 19rem;
+    }
+    .hamburger-menu{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .navbar-wrapper{
+        height: 7rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .left-box h2{
+        font-size: 2.5rem;
+    }
+    .center-box input{
+        height: 3.5rem;
+        padding-left: 10px;
+        font-size: 1rem;
+    }
+    .search-icon{
+        width: 3.5rem;
+        border-radius: 0 10px 10px 0;
+    }
+    .right{
+        display: none;
+    }
+    .left{
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+    .menu{
+        position: fixed;
+        top: 7rem;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        width: 17rem;
+        gap: 3rem;
+        height: 150vh;
+        padding-top: 1rem;
+        padding: 1rem;
+        background-color: #FF6767;
+    }
+    .menu button{
+        font-size: 1.5rem;
+        background-color: #FF6767;
+        border: none;
+        color: white;
+        transition: transform 0.3s ease-out;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .menu button:hover{
+        background-color: white;
+        color: #FF6767;
+        transform: scale(1.1);
+    }
+}

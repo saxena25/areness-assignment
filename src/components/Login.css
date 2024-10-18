@@ -1,0 +1,48 @@
+.login-wrapper{
+    background-image: url('https://img.freepik.com/free-vector/realistic-neon-lights-background_23-2148907367.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    width: 35%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: rgba(233, 230, 230, 230) 0px 20px 20px;
+    /* padding: 1rem; */
+}
+
+.top-box{
+    background-image: url('https://plus.unsplash.com/premium_photo-1681487916420-8f50a06eb60e?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bG9naW58ZW58MHx8MHx8fDA%3D');
+    background-size: cover;
+    background-position: center;
+    padding: 1.5rem;
+    height: 28vh;
+    border-radius: 15px 15px 0 0px;
+}
+
+.top-box h3,h1{
+    color: white;
+}
+
+.top-box h3{
+    font-size: 1.5rem;
+}
+
+.top-box h1{
+    font-size: 2.5rem;
+}
+
+.bottom-box{
+    height: 30vh;
+    padding: 1rem;
+    text-align: center;
+    /* padding-bottom: 1rem; */
+    margin-bottom: 1rem;
+}
